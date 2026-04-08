@@ -104,6 +104,27 @@ def finish_order(message, address):
 """)
 
 # 📢 REKLAMA (MATN)
+Г‘ИЖДУВОН ТОЗА ГИЛАМ – Сиз учун хизматда!
+
+🧼 ГИЛАМЛАРИНГИЗ КИР БЎЛИБ ҚОЛДИМИ?
+
+💨 Буғли ювиш орқали чуқур тозалаш!
+
+🦠 Антибактериал воситалар!
+
+🚚 Уйингиздан олиб кетамиз – етказиб бериш БЕПУЛ!
+
+✨ Сифат – кафолатли!
+💯 Мижозларимиз рози!
+
+📞 Бизга қўнғироқ қилинг:
+📱 +998 93 841 89 00
+📱 +998 90 614 26 73
+
+🎯 Гиламингизга янгидек кўриниш бахш этамиз!
+
+
+Guruh linki profilda
 @bot.message_handler(commands=['reklama'])
 def reklama(message):
     if message.from_user.id != ADMIN_ID:
@@ -160,7 +181,8 @@ def about(message):
 🏢 TOZA GILAM
 
 📍 G‘ijduvon
-📞 +998 90 123 45 67
+📞 +998 93 841 89 00
+GILAM KURPACHA ADYOL YUVISH XIZMATI
 
 🚀 Sifatli xizmat
 """)
